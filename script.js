@@ -1,7 +1,7 @@
 
 const section = document.querySelector("section");
 const playerLivesCount = document.querySelector("span");
-let playerLives = 4;
+let playerLives = 6;
 
 playerLivesCount.textContent = playerLives;
 
@@ -111,16 +111,10 @@ const restart = (text) => {
             section.style.pointerEvents = "all";
             }, 1000);
         });
-    playerLives = 4
+    playerLives = 6
     playerLivesCount.textContent = playerLives;
     setTimeout(() => window.alert(text, 100));
     }
     
-
-
-
 cardGenerator();
 
-
-// https://www.youtube.com/watch?v=-tlb4tv4mC4
-// 45:50
